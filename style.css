@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #000;
+    background-image: url(bg.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+.banner-area h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    font-size: 4.5em;
+    text-shadow: 2px 2px 5px black;
+}
+.banner-area h2 span{
+    color: red;
+}
